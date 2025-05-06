@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "monkey-tsx-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "biome check",
+    "lint:fix": "biome check --write .",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@maxchang/biome-config": "^0.0.5",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-monkey": "^5.0.8"
+  },
+  "dependencies": {
+    "@maxchang/jsx-dom": "^8.1.6"
+  }
+}
