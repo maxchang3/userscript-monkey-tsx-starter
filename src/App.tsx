@@ -1,13 +1,17 @@
 import styles from './App.module.css'
 
 const Counter = () => {
-    const count = React.createRef()
-    const onClick = () => count.current.innerText++
+    const countRef = React.createRef<HTMLParagraphElement>()
+
+    const onClick = () => {
+        const currentValue = Number.parseInt(countRef.current!.innerText) || 0
+        countRef.current!.innerText = (currentValue + 1).toString()
+    }
 
     return (
         <div>
             <h1>Counter</h1>
-            <p ref={count}>0</p>
+            <p ref={countRef}>0</p>
             <button onClick={onClick} type="button" class={styles.button}>
                 Increment
             </button>
