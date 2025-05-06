@@ -16,7 +16,7 @@ export default defineConfig({
             },
             build: {
                 externalGlobals: {
-                    '@maxchang/jsx-dom': cdn.jsdelivrFastly(`jsxDOM.default`, `dist/index.js`),
+                    '@maxchang/jsx-dom': cdn.jsdelivrFastly(`jsxDOM.default`, `dist/index.min.js`),
                 },
             },
         }),
