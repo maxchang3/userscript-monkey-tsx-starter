@@ -1,4 +1,4 @@
-# UserScript Monkey-TSX Starter
+# UserScript TSX Starter
 
 A modern TypeScript-based development setup for creating UserScripts, with:
 
