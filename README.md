@@ -2,7 +2,7 @@
 
 A modern TypeScript-based development setup for creating UserScripts, with:
 
-* **JSX/TSX Support**: Write UI components in familiar JSX syntax, compiled to native DOM operations (Powered by [`jsx-dom`](https://github.com/alex-kinokon/jsx-dom))
+* **JSX/TSX Support**: Write UI components in JSX, compiled to native DOM operations (By [`jsx-dom`](https://github.com/alex-kinokon/jsx-dom))
   * Uses the UMD build via [`@maxchang/jsx-dom`](https://github.com/maxchang3/jsx-dom) for `@require` CDN compatibility
 * **vite-plugin-monkey**: Automatically manages UserScript metadata and builds optimized scripts
 
